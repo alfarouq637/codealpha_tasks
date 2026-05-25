@@ -1,0 +1,8 @@
+type,removed_image,kept_image,label_moved,distance
+EXACT,cow1.jpg,cow1 - Copy.jpg,FALSE,0
+EXACT,cow2.jpg,cow2 - Copy.jpg,FALSE,0
+EXACT,cow3.jpg,cow3 - Copy.jpg,FALSE,0
+EXACT,cow4.jpg,cow4 - Copy.jpg,FALSE,0
+EXACT,cow5.jpg,cow5 - Copy.jpg,FALSE,0
+NEAR,cow1 - Copy.jpg,cow11.jpg,FALSE,6
+NEAR,cow2 - Copy.jpg,cow22.jpg,FALSE,2
