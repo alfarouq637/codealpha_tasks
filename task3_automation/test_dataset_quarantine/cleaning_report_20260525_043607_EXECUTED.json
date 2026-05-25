@@ -1,0 +1,83 @@
+{
+  "dataset_dir": "test_dataset",
+  "quarantine_dir": "test_dataset_quarantine",
+  "dry_run": false,
+  "timestamp": "",
+  "total_images_scanned": 12,
+  "similarity_threshold": 8,
+  "exact_duplicates_removed": [
+    {
+      "image": "cow1.jpg",
+      "label": null,
+      "image_moved": true,
+      "label_moved": false,
+      "error": null,
+      "kept": "cow1 - Copy.jpg",
+      "md5": "18f9ba8f6e83ac3897331a638d026bbf"
+    },
+    {
+      "image": "cow2.jpg",
+      "label": null,
+      "image_moved": true,
+      "label_moved": false,
+      "error": null,
+      "kept": "cow2 - Copy.jpg",
+      "md5": "731577ae6a81ae459d04f474a56542f5"
+    },
+    {
+      "image": "cow3.jpg",
+      "label": null,
+      "image_moved": true,
+      "label_moved": false,
+      "error": null,
+      "kept": "cow3 - Copy.jpg",
+      "md5": "5b402b83bf7f6b7909f56d14e5145aff"
+    },
+    {
+      "image": "cow4.jpg",
+      "label": null,
+      "image_moved": true,
+      "label_moved": false,
+      "error": null,
+      "kept": "cow4 - Copy.jpg",
+      "md5": "453e4e0cb5d0e07b043c275e0dd06fcb"
+    },
+    {
+      "image": "cow5.jpg",
+      "label": null,
+      "image_moved": true,
+      "label_moved": false,
+      "error": null,
+      "kept": "cow5 - Copy.jpg",
+      "md5": "e36207f8899e4ca66d11ff1852ce6006"
+    }
+  ],
+  "near_duplicates_removed": [
+    {
+      "image": "cow1 - Copy.jpg",
+      "label": null,
+      "image_moved": true,
+      "label_moved": false,
+      "error": null,
+      "kept": "cow11.jpg",
+      "distance": 6
+    },
+    {
+      "image": "cow2 - Copy.jpg",
+      "label": null,
+      "image_moved": true,
+      "label_moved": false,
+      "error": null,
+      "kept": "cow22.jpg",
+      "distance": 2
+    }
+  ],
+  "summary": {
+    "total_scanned": 12,
+    "exact_duplicates_removed": 5,
+    "near_duplicates_removed": 2,
+    "total_removed": 7,
+    "remaining_images": 5,
+    "reduction_percent": 58.33
+  }
+}
